@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Potter";
+	src: url('../Potter.ttf');
+} 
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: url(../assets/menu.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
+}
+
+.titre{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 9% 35%;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Potter" ;
+    display: inline-grid;
+}
+
+.bouton{
+    display: inline-grid;
+    width: 150px;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+button{
+    font-size: 30px;
+    font-family: "Potter";
+}
+
+.btn2{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    font-family: "Potter";
+    font-style: normal;
+    font-size: 24;
+    margin: 10px;
+    float: right;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.carte{
+    float: left;
+    margin-left: 170px;
+    margin-top: 150px;
+}
+
+.cartebd{
+    background: palegreen;
+    font-family: "Potter";
+    font-size: 22px;
+}
+
+.cartebd2{
+    background: darkred;
+    font-family: "Potter";
+    font-size: 22px;
+}
+
+.cartebd3{
+    background: cornflowerblue;
+    font-family: "Potter";
+    font-size: 22px;
+}
+
+@media (max-width:600px){
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .titre {
+        width: 100%;
+        height: auto;
+        margin: 30% 0;
+        font-size: 30px;
+    }
+}

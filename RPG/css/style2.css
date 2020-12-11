@@ -1,0 +1,120 @@
+@font-face {
+	font-family: "Potter";
+	src: url('../Potter.ttf');
+} 
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: url(../assets/train.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
+}
+
+.titre{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 5% 35%;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Potter" ;
+    display: inline-grid;
+}
+
+.personnage{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.perso{
+    height: 400px;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+}
+  
+.container:hover .overlay {
+    opacity: 0.75;
+}
+
+.texte{
+    top: 8%;
+    left: 50%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img{
+    left: 50%;
+    top: 50%
+}
+
+.gauche{
+    margin-left: 39%;
+}
+
+.droite{
+    margin-left: 21%;
+}
+
+.select{
+    margin-top: 50px;
+}
+
+.button{
+    display: inline-grid;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-left: 46%;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Potter";
+}
+
+
+/* responsive */
+
+@media (max-width:600px){
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .titre {
+        width: 100%;
+        height: auto;
+        margin: 30% 0;
+        font-size: 30px;
+    }
+}

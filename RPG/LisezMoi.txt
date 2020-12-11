@@ -1,0 +1,20 @@
+﻿Voici notre jeu RPG codé en JavaScript (ainsi que d'autres languages commme l'HTML et le CSS)
+
+Le but du jeu est de rester vivant tout au long de la partie car truffé de pièges, il vous sera difficile de résister au différents monstres
+
+La boutique n'étant pas finie, elle n'est pas fonctionnelle à cet instant donc inutile de vous y réfugier
+
+Au tout début vous avez à faire au menu "accueil.html" qu'il faudra lancer en premier
+
+Puis viendra le moment où vous pourrez voir les différents personnages qui vous sont proposés (le jeu démarre lorsque vous appuyez sur un personnage)
+
+Et à ce moment "game.html" prend le relai de lancer le jeu et vous êtes partis à la conquête de Poudlard et de ses secrets, pour jouer au jeu vous avez au maximum 4 choix à chaque tour donc à vous de choisir le juste pour ne pas perdre la partie (le choix du personnage se fait via l'alert qui s'affiche en haut de page donc soit Harry, soit Hermione)
+
+Lorsque vous perdez la partie un gif apparaît en milieu d'écran et il ne vous reste plus qu'à appuyer sur le bouton "quitter"
+
+Jeu basé sur le thème d'Harry Potter
+
+Bon amusement !
+
+
+Crée par Okan Tosun, Precious Soriano, Baptiste Marie, Killian Grincourt
